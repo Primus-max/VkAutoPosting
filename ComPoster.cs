@@ -33,7 +33,7 @@ public class ComPoster
         _logFileName = logFileName;
         _profileName = profileName;
     }
-    
+
     public async Task Posting()
     {
         bool isLoadedContent = false;
@@ -86,7 +86,7 @@ public class ComPoster
             //var actions = new Actions(_driver);
             //actions.MoveToElement(myPageLink).Click().Perform();
 
-           await GoToMainPageAsync();
+            await GoToMainPageAsync();
         }
 
         // Ожидаем загрузки DOM
@@ -144,6 +144,8 @@ public class ComPoster
                         foreach (var imagePath in content.ImagePaths)
                         {
                             if (String.IsNullOrEmpty(imagePath)) continue;
+                            if (!File.Exists(imagePath)) continue;
+
                             // Если уже загружено максимальное количество картинок, то выходим из цикла
                             if (limitImgForPosting >= 4)
                             {
@@ -153,13 +155,13 @@ public class ComPoster
                             // Загружаем картинку
                             try
                             {
-                                inputFile.SendKeys(imagePath);                                
+                                inputFile.SendKeys(imagePath);
                             }
                             catch (Exception) { }
-                            
+
                             limitImgForPosting++;
 
-                            
+
 
                             // Если на странице есть элемент "editable_thumbs", то ждем, пока появится нужное количество картинок
                             if (thumbnailsDiv != null)
