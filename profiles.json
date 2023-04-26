@@ -1,0 +1,105 @@
+{
+  "profileData": [
+    {
+      "Timezone": {
+        "fill_timezone_based_on_ip": "true",
+        "timezone_offset": "-05:00",
+        "timezone_name": "America/Indiana/Knox"
+      },
+      "general_profile_information": {
+        "profile_browser_version": "107",
+        "simulated_operating_system": "windows",
+        "profile_name": "Полина Овечкина 3075",
+        "browser_id": "816c65a4-18d9-4960-8056-f647fd301c5f",
+        "profile_notes": "",
+        "profile_group": "Unassigned",
+        "profile_last_edited": "2023-03-16"
+      },
+      "Proxy": {
+        "connection_type": "Socks 5 proxy",
+        "proxy_rotation_api_url": "",
+        "proxy_username": "aD1cEC",
+        "proxy_rotating": 0,
+        "proxy_provider": "main",
+        "proxy_url": "37.157.220.89:1044",
+        "proxy_password": "Ec3ANEs2FuYv"
+      },
+      "Geolocation": {
+        "fill_geolocation_based_on_ip": "true",
+        "behavior": "Prompt",
+        "location_information": {
+          "latitude": "42.42815",
+          "accuracy": "2206.0",
+          "longitude": "-88.61751"
+        }
+      },
+      "Navigator": {
+        "navigator_languageIPToggle": true,
+        "hardware_concurrency": "FOUR",
+        "languages": "en_US",
+        "do_not_track": false,
+        "screen_resolution": "1360x768",
+        "navigator_useragent_always_latest": false,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36",
+        "platform": "Win32",
+        "navigator_deviceMemory": "4",
+        "navigator_useragent_match_chrome_core": false
+      },
+      "Media_devices": {
+        "audio_outputs": 3,
+        "video_outputs": 1,
+        "enable_media_masking": "true",
+        "audio_inputs": 1
+      },
+      "CustomDNS": {
+        "customDNS_enabled": "false",
+        "customDNS_details": ""
+      },
+      "Fonts": {
+        "browser_font_list": "R2F1dGFtaSxDYWxpYnJpIExpZ2h0LFBUIFNlcmlmLEZhbnRhc3F1ZSBTYW5zIE1vbm8sU2ltcGxpZmllZCBBcmFiaWMgRml4ZWQsVnJpbmRhLFRpbWVzIE5ldyBSb21hbixTeWxmYWVuLE1vbm9zcGFjZWQsRWJyaW1hLEtobWVyIFVJLFNlZ29lIFNjcmlwdCxMdWNpZGEgR3JhbmRlLEFyaWFsSGVicmV3LUxpZ2h0LENvcmRpYSBOZXcsQmVsbCBNVCxOU2ltU3VuLE1pY3Jvc29mdCBVaWdodXIsS2FydGlrYSxMb2JzdGVyLFNlZ29lIFVJIExpZ2h0LFRhaG9tYSxDYW50YXJlbGwsQW5nc2FuYVVQQyxOb3RvLEtvZGNoaWFuZ1VQQyxHZW9yZ2lhLExlZWxhd2FkZWUsQXBhcmFqaXRhLE1pcmlhbSxNaWNyb3NvZnQgTmV3IFRhaSBMdWUsTnlhbGEsU2ltSGVpLFBhbGF0aW5vLUJvbGQsR2VuZXZhLE1TIE1pbmNobyxCaXJjaCBTdGQsRnJhbmtsaW4gR290aGljIE1lZGl1bSxMdWNpZGEgQ29uc29sZSxQTWluZ0xpVS1FeHRCLFBhbGF0aW5vLFNlZ29lIFVJIFN5bWJvbCxNaXJpYW0gRml4ZWQsVHVuZ2EsUm9ib3RvLENvbnN0YW50aWEsQ2FsaWJyaSxDb3JkaWFVUEMsTVMgVUkgR290aGljLEFyaWFsIEJsYWNrLENvdXJpZXIsRGlsbGVuaWFVUEMsQWxOaWxlLEZhbmdTb25nLEd1bmdzdWgsRHJvaWQgU2VyaWYsTGV2ZW5pbSBNVCxEYXVuUGVuaCxDYW1icmlhLFRyZWJ1Y2hldCBNUyxEb3R1bUNoZSxDb21pYyBOZXVlLEd1bmdzdWhDaGUsVmlqYXlhLE1pbmdMaVUsS2FsaW5nYSxNaW5nTGlVLUV4dEIsTWljcm9zb2Z0IFNhbnMgU2VyaWYsQ2VudHVyeSxUSS1Oc3BpcmUsTGlseVVQQyxFc3RyYW5nZWxvIEVkZXNzYSxOYXJraXNpbSxEb3R1bSxHaXNoYSxTZWdvZSBVSSBTZW1pYm9sZCxFdXBoZW1pYSxQTWluZ0xpVSxTaHJ1dGksQWRvYmUgQnJhaWxsZSxBcHBsZSBHb3RoaWMsU291cmNlIFNhbnMgUHJvLElza29vbGEgUG90YSxGcmVlc2lhVVBDLEdhYnJpb2xhLE1TIEdvdGhpYyxTaW1TdW4sU2hvbmFyIEJhbmdsYSxHdWxpbUNoZSxVdHNhYWgsTWVpcnlvLFVidW50dSBSZWd1bGFyLFJhYXZpLENvbWljIFNhbnMgTVMsTW9uYWNvLFBhbGF0aW5vIExpbm90eXBlLERpYWxvZyxKYXNtaW5lVVBDLEFuZGFsdXMsRXVjcm9zaWFVUEMsU2VyaWYsT3N3YWxkLEtva2lsYSxDb25zb2xhcyxJbXBhY3QsTWVpcnlvIFVJLFVidW50dSBNZWRpdW0sQWRvYmUgSGVicmV3LFJvZCxBdmVuaXIgTmV4dCxBcmlhbCxGcmFua1J1ZWhsLFNpbXBsaWZpZWQgQXJhYmljLE1vbmdvbGlhbiBCYWl0aSxQYXB5cnVzLENhbWJyaWEgTWF0aCxTZWdvZSBQcmludCxDb3VyaWVyIE5ldyxNUyBQTWluY2hvLE1TIFBHb3RoaWMsTWFuZ2FsLEJyb3dhbGxpYVVQQyxEYXZpZCxBcHBsZSBMaUdvdGhpYyxBbmdzYW5hIE5ldyxNaWNyb3NvZnQgSGltYWxheWEsT3BlbiBTYW5zLExhbyBVSSxDb3JiZWwsRnV0dXJhLFN5bWJvbCxLYWlUaSxNaWNyb3NvZnQgVGFpIExlLERhbWFzY3VzLFdlYmRpbmdzLEhlbHZldGljYSBOZXVlLEFoYXJvbmksTWluZ0xpVV9IS1NDUy1FeHRCLE1pbmdMaVVfSEtTQ1MsTWljcm9zb2Z0IFlpIEJhaXRpLEJyb3dhbGxpYSBOZXcsQXJhYmljIFR5cGVzZXR0aW5nLEx1Y2lkYSBTYW5zIFVuaWNvZGUsVmVyZGFuYSxNaWNyb3NvZnQgUGhhZ3NQYSxEaWFsb2dJbnB1dCxJcmlzVVBDLFF1aWNrc2FuZCxNaW5pb24gUHJvLE1pY3Jvc29mdCBKaGVuZ0hlaSxHdWxpbSxOZXcgWW9yayxMYXRoYSxTYW5zU2VyaWYsQmF0YW5nLFNha2thbCBNYWphbGxhLENvcnNpdmEgSGVicmV3LFNpbVN1bi1FeHRCLFdpbmdkaW5ncyxBcmlhbCBVbmljb2RlIE1TLERGS2FpLVNCLFNlZ29lIFVJLFZhbmksQ2VudHVyeSBHb3RoaWMsUGxhbnRhZ2VuZXQgQ2hlcm9rZWUsTGF0byxUaW1lcyxUcmFkaXRpb25hbCBBcmFiaWMsTW9vbEJvcmFuLEF2ZW5pcixTZWdvZSBVSSBSZWd1bGFy",
+        "enable_font_list_masking": "true",
+        "enable_unicode_glyps_domrect": "true"
+      },
+      "Hardware": {
+        "WebGL": {
+          "WebGL_meta": {
+            "WebGL_meta_unmasked_renderer": "ANGLE (AMD Radeon(TM) R4 Graphics Direct3D11 vs_5_0 ps_5_0)",
+            "WebGL_meta_renderer": "WebKit WebGL",
+            "WebGL_meta_vendor": "WebKit",
+            "WebGL_meta_unmasked_vendor": "Google Inc.",
+            "WebGL_meta_behavior": "Mask"
+          },
+          "WebGL_image": {
+            "WebGL_behavior": "Noise",
+            "WebGL_hash": "ur0AQZVDJJ6CaTfr70brlgI47x5H6BfME0Ce4qdGx9Bp3JwdJyzGbYLD7uN1kmo"
+          }
+        },
+        "Canvas": {
+          "Canvas_hash": "kBQtEiSroGXdSZjP70ZXDxEdlwQtXs59Ce4nPXX3NBZmsHlr5UhWfOLk2BO8uDZ",
+          "Canvas_behavior": "Noise"
+        },
+        "AudioContext": {
+          "AudioContext_hash": "9VhRNxGbwi6xjGeGkL5Vy6HpqzgaQgtod6NFrhqL1fM7HfPzXPf7C21PlytsjY5",
+          "Audio_Context_behavior": "Noise"
+        }
+      },
+      "Extensions": { "contains_extensions": "false" },
+      "WebRTC": {
+        "local_ip": "192.168.179.11",
+        "public_ip": "",
+        "behavior": "Altered",
+        "set_external_ip": true
+      },
+      "Other": {
+        "browser_allowRealMediaDevices": "false",
+        "other_try_to_pass_iphey": "false",
+        "active_session_lock": "true",
+        "other_ShowProfileName": "true",
+        "custom_browser_args_enabled": "false",
+        "browser_language_lock": "true",
+        "custom_browser_language": "",
+        "custom_browser_args_string": ""
+      }
+    }
+  ]
+}
