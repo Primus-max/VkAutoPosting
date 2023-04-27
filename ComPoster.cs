@@ -252,9 +252,11 @@ public class ComPoster
 
                             Uri postUri = new Uri($"{baseUrl}{prefix}{hrefLinkPost}");
 
-                            // Отправляю запрос на лайки для поста
-                            await OrderLikes.SendRequest(postUri, _profileName, _logFileName);
-
+                            if(_groupName?.ToLower() == "фулл")
+                            {
+                                // Отправляю запрос на лайки для поста
+                                await OrderLikes.SendRequest(postUri, _profileName, _logFileName);
+                            }                            
 
                             // Записываю логи
                             string message = $"В профиль {_profileName} был загружен пост {content.MessageId}";
