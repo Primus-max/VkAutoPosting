@@ -42,7 +42,8 @@ public static class ProfileManager
                             var profileInfo = new ProfileInfo
                             {
                                 Name = profileName,
-                                ProfileId = profileId
+                                ProfileId = profileId,
+                                GroupName = profileGroup,
                             };
                             profileInfoList.Add(profileInfo);
                         }
@@ -51,7 +52,8 @@ public static class ProfileManager
                             var profileInfo = new ProfileInfo
                             {
                                 Name = profileName,
-                                ProfileId = profileId
+                                ProfileId = profileId,
+                                GroupName = profileGroup,
                             };
                             profileInfoList.Add(profileInfo);
                         }
@@ -60,7 +62,8 @@ public static class ProfileManager
                             var profileInfo = new ProfileInfo
                             {
                                 Name = profileName,
-                                ProfileId = profileId
+                                ProfileId = profileId,
+                                GroupName = profileGroup,
                             };
                             profileInfoList.Add(profileInfo);
                         }
@@ -69,7 +72,8 @@ public static class ProfileManager
                             var profileInfo = new ProfileInfo
                             {
                                 Name = profileName,
-                                ProfileId = profileId
+                                ProfileId = profileId,
+                                GroupName = profileGroup,
                             };
                             profileInfoList.Add(profileInfo);
                         }
