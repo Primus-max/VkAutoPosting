@@ -24,14 +24,16 @@ public class ComPoster
     private RemoteWebDriver? _driver;
     private readonly string? _profileName = "";
     private readonly string? _logFileName = "";
+    private readonly string? _groupName = "";
 
 
-    public ComPoster(RemoteWebDriver driver, string profileId, string? logFileName, string profileName)
+    public ComPoster(RemoteWebDriver driver, string profileId, string? logFileName, string profileName, string? groupName)
     {
         _driver = driver;
         _profileId = profileId;
         _logFileName = logFileName;
         _profileName = profileName;
+        _groupName = groupName;
     }
 
     public async Task Posting()
