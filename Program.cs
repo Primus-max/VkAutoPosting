@@ -63,7 +63,7 @@ if (isWindowOpen)
         {
             connectedDriver = await BrowserManager.ConnectDriver(profileInfo.ProfileId);
 
-            ComPoster poster = new ComPoster(connectedDriver, profileInfo.ProfileId, logFileName, profileInfo?.Name);
+            ComPoster poster = new ComPoster(connectedDriver, profileInfo.ProfileId, logFileName, profileInfo?.Name, profileInfo.GroupName);
             await poster.Posting();
         }
         catch (Exception ex)
