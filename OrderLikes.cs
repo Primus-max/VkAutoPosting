@@ -26,7 +26,8 @@ namespace AutoPostingVK
             }
             catch (Exception ex)
             {
-                string message = $"Не получилось сделать заказ лайков на пост {url} в профиле {profileName}";
+                string message = $"Не получилось сделать заказ лайков на пост {url} в профиле {profileName}." +
+                    $"Причина: {ex.Message}";
                 LogManager.LogMessage(message, fileName);
             }
         }
